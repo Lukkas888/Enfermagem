@@ -1,0 +1,117 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: auto;
+background-color: #a83df45b;
+}
+
+#top-bar{
+    width: 100%; 
+    
+    color: white;
+    background-color: #e91e63;
+    font-size: 19px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+#container{
+
+} 
+
+#banner{
+    width: 100vw;
+    height: 500px;
+}
+
+.modules {
+    max-width: 69vw;  
+    margin: auto;
+    display: grid;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .module {
+      background: white;
+      border-radius: 10PX;
+      padding: 1.5rem;
+      box-shadow: 5px 5px 2px gray;
+      border: 2px solid gray;
+    }
+
+    .module h2 {
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .module h3 {
+      font-size: 1.25rem;
+      color: var(--dark);
+      margin: 1rem 0 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .module ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .module li {
+      margin-bottom: 0.75rem;
+      padding-left: 1.8rem;
+      position: relative;
+    }
+
+    .module li::before {
+      content: '✓';
+      color: var(--secondary);
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+
+    .alert {
+      background: #fff3cd;
+      border: 1px solid #ffeaa7;
+      color: #856404;
+      padding: 1rem;
+      border-radius: var(--radius);
+      margin: 1rem 0;
+      font-weight: 500;
+    }
+
+    .tip {
+      background: var(--light);
+      padding: 1rem;
+      border-radius: var(--radius);
+      margin: 1rem 0;
+      border-left: 4px solid var(--secondary);
+    }
+
+    .highlight {
+      background: var(--primary-light);
+      color: var(--primary);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+    } 
+
+    .rodape{
+      background-color: #e91e63;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 19px;
+      margin-top: 5px;
+    }
